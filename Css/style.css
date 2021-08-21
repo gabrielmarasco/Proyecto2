@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Stint+Ultra+Condensed&display=swap"); /* TITULO */
+/* font-family: 'Merienda', cursive; */ /* TITULO */
+@import url("https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap"); /* CUERPO */
+/* font-family: 'Stint Ultra Condensed', cursive; */ /* CUERPO */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#contenedor {
+  max-width: 1080px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(255, 66, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 244, 1) 39%,
+    rgba(162, 52, 149, 0.9653579676674365) 100%
+  );
+}
+
+.header a img {
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.links {
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background: rgb(255, 66, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 244, 1) 39%,
+    rgba(162, 52, 149, 0.9653579676674365) 100%
+  );
+  margin-top: 5px;
+}
+.links ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 15px;
+  text-decoration: none;
+}
+.links li a {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Merienda", cursive;
+  padding-right: 100px;
+}
+.formu {
+  margin-right: 10px;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contenido img {
+  max-width: 75%;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  background: rgb(255, 66, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 244, 1) 39%,
+    rgba(162, 52, 149, 0.9653579676674365) 100%
+  );
+  text-align: center;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.producto {
+  border: 1px solid black;
+  padding: 10px;
+}
+.producto img {
+  width: 150px;
+}
+
+.cuerpo {
+  max-width: 80%;
+  margin: auto;
+}
+.enca {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.titulo {
+  margin-top: 50px;
+}
+
+.txt {
+  margin-top: 50px;
+}
+
+.frame {
+  display: flex;
+  justify-content: end;
+}
+
+#formulario {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  width: 300px;
+  height: 300px;
+}
+.hr {
+  margin-top: 50px;
+}
+
+.talles {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
